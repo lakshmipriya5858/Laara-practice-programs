@@ -1,0 +1,12 @@
+class J 
+{
+	public static void main(String[] args) 
+	{
+		double x,y=1.5,z;
+x=1.5;
+z=4.5;
+		System.out.println(x);
+		System.out.println(y);
+		System.out.println(z);
+}
+}
