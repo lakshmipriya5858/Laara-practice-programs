@@ -1,0 +1,21 @@
+class E 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+		if(true)
+		{
+		System.out.println("if block!");
+		}
+
+		else 
+			{
+			int i=10;//local variable of else  should be in else block only
+
+			System.out.println("else block");
+
+	        }
+			System.out.println("main end "+i);
+
+              }
+}

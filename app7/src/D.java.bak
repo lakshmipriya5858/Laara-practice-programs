@@ -1,0 +1,20 @@
+class D 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+		if(true)
+		{
+		System.out.println("if block!");
+		}
+		System.out.println("middle ");
+
+		else 
+			{
+			System.out.println("else block");
+
+	        }
+			System.out.println("main end ");
+
+              }
+}
