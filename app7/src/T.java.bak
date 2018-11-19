@@ -2,7 +2,7 @@ class T
 {
 	public static void main(String[] args) 
 	{
-		System.out.println("Hello World!");
+		System.out.println("main begin!");
 		if(false)//receiving false goes to else block
 		{
 		System.out.println("if block!");

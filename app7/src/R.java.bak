@@ -7,7 +7,7 @@ class R
 		{
 		System.out.println("if block!");
 		}
-		else
+		else                                                //in else block there is another if and else block
 		{
 							System.out.println("else-if block begin"); 
 
