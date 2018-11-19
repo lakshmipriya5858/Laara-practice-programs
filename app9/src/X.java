@@ -22,3 +22,4 @@ class X
 		System.out.println("main end");
 	}
 }
+//compile time error

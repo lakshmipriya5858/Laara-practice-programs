@@ -12,7 +12,7 @@ class X
 				case 130:
 				System.out.println("from case 130");
 			    break;
-				case 7:
+				case 40000:
 				System.out.println("from case 7");
 			    break;
 				case 10:

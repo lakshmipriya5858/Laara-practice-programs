@@ -8,7 +8,7 @@ class Z12
                          break;
 		    case 5:		System.out.println("case 5");
                          break;
-			case 10:		System.out.println("case j");
+			case 10:		System.out.println("case 10");
                          break;
 		}
 		System.out.println("end!");

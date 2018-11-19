@@ -14,4 +14,4 @@ class Z12
 		System.out.println("end!");
 	}
 }
-//compile time error 
+ 
