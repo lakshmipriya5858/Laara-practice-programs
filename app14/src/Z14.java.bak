@@ -1,0 +1,14 @@
+class Z14
+{
+	public static void main(String[] args) 
+	{
+		boolean i=test();
+		System.out.println("main begin!");
+	}
+	public static boolean test()
+	{
+		System.out.println("main end!");
+return ;
+	}
+}
+//CTE
