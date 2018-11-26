@@ -1,0 +1,19 @@
+class V
+	{
+	static int i=test();
+	static int j=test();
+	public static int test()
+	        {
+			System.out.println("test"+i+j);
+             return i+j+10;
+			}
+	public static void main(String[] args) 
+	{
+		System.out.println("main:"+i+j);
+	}
+}
+/*
+
+test0
+main:10
+*/

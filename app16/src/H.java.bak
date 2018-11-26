@@ -1,0 +1,10 @@
+class H 
+{
+	static int i=1000;
+	public static void main(String[] args) 
+	{
+		int i=5000;
+		System.out.println("Hello World!"+i);
+	}
+}
+//Hello World50000

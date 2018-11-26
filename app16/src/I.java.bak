@@ -1,0 +1,10 @@
+class I 
+{
+	static int i=1000;//global
+	public static void main(String[] args) 
+	{
+		boolean i=false;//local
+		System.out.println("Hello World!"+i);
+	}
+}
+//Hello World50000
