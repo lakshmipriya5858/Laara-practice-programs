@@ -1,4 +1,4 @@
-class Q
+lass Q
 {
 	public static void main(String[] args) 
 	{
