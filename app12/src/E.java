@@ -9,8 +9,7 @@ class E
 		System.out.println("loop body"+i);
 		if(i==3)
 			{
-			continue;// infinte execution 
-		}
+			continue;    //infinte execution        }
 		}
 				System.out.println("loop body end");
                  i++;
