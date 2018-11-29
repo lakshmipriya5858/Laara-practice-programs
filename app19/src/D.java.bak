@@ -1,0 +1,9 @@
+class D 
+{
+	int i;
+	static  
+	{
+       i=10;	
+}
+}
+//CTE

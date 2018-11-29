@@ -1,0 +1,18 @@
+class H 
+{
+	int x=10;
+	void test()
+	{
+		System.out.println("from test!");
+
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin!");
+		H obj=new H();
+		System.out.println(obj.x);
+		obj.test();
+		System.out.println("main end!");
+
+	}
+}
