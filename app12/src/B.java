@@ -7,7 +7,7 @@ class B
 		int i=1;
 		while(i<=5)
 		{
-		System.out.println("loop body"+ i++);
+		System.out.println("loop body"+ i++);//post increment 
 		}
 				System.out.println("main end"+i);
 
