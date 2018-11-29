@@ -9,8 +9,7 @@ class Z19
 		if (true)
 		System.out.println("if3 body");
 		}
-				System.out.println("main end");
-
+		System.out.println("main end");
 		}
 	}
 
