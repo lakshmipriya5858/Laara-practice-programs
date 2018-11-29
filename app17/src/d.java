@@ -1,4 +1,4 @@
-class D 
+class d
 {
 	static int i;
 	static
