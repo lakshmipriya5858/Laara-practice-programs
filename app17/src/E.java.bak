@@ -1,0 +1,39 @@
+class E
+{
+	static int i;
+	static int j =i;   // direct read
+	static int k=method1();
+
+	static
+	{
+		System.out.println("sib:" +i+","+j+","+k); // direct read
+		i=10; // direct write
+		j=10;//direct write
+		k=10; // direc write
+		test();
+
+	}
+	static void test()
+	{
+		System.out.println("test:"+i); // indirect read
+		i=20;//indirec write.
+		System.out.println("test:"+j); // indirect read
+		j=20;//indirec write.
+		System.out.println("test:"+k); // indirect read
+		k=20;//indirec write.
+	}
+
+	static int  method1()
+	{
+	System.out.println("method():"+i);
+	i=20;
+	System.out.println("method():"+j);
+		j=30;
+	}
+
+	public static void main(String[] args) 
+	{
+		System.out.println("main");
+	}
+
+}

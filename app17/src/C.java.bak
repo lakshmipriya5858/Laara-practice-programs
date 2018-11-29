@@ -1,0 +1,28 @@
+class C
+{
+	static
+	{
+		System.out.println("SIB 1");
+	}
+	static int i=test(); // one of the initialiser.
+	public static void main(String[] args) 
+	{
+		System.out.println("main");
+	}
+	static
+	{
+		System.out.println("SIB 2");
+	}
+   static int test()
+	{
+		System.out.println("test");
+		return 10;
+	}
+
+}
+/*
+sib1
+test
+sib2
+main
+*/

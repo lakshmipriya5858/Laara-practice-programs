@@ -1,0 +1,11 @@
+class K
+	public static void main(String[] args) 
+{
+	static int x;
+	static int y=z; 
+	static int z=p; 
+	static int p=y; 
+	{
+		System.out.println("Hello World!");
+	}
+}
