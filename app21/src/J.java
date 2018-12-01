@@ -1,0 +1,53 @@
+class J
+{
+	J()
+	{
+
+		System.out.println("I()");
+	}
+	{
+				System.out.println("j-iib1 thing");
+		}
+	
+		J(int x)
+	    {
+		System.out.println("j(int)");
+		
+		}
+		
+		
+		{
+		System.out.println("j-iib2 thing");
+		}
+	
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin!");
+		J obj=new J();
+		System.out.println("..................");
+		J obj2=new J(100);
+	    System.out.println(".................");
+        J obj3=new J();
+		System.out.println("...............");
+		System.out.println("main end!");
+	}
+}
+/*
+E:\oct-23\app21\src>java -cp ..\classes J
+main begin!
+j-iib1 thing
+j-iib2 thing
+I()
+..................
+j-iib1 thing
+j-iib2 thing
+I(int)
+.................
+j-iib1 thing
+j-iib2 thing
+I()
+...............
+main end!
+*/
+//Instance initialisation block-IIB
+//for every object creation iib is executing 

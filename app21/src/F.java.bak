@@ -1,0 +1,15 @@
+class F 
+{
+	F()
+	{
+	this(60);
+		System.out.println("done!");
+
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}
+//CTE
+//there should a corresponding constructor  

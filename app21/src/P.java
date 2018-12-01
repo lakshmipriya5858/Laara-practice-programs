@@ -1,0 +1,62 @@
+class P
+{
+	static int count;
+	
+	
+	
+	P()
+	{
+    System.out.println("p()");
+	}
+	P(int i)
+	{
+		this();
+		System.out.println("p()");
+	}
+	{
+		System.out.println("p-IIB");
+		count ++;
+	}
+	static 
+	{
+	System.out.println("p-SIB");
+	}
+	
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		P l1=new P();
+		System.out.println("//////////////////");
+		P l2=new P(20);
+	    System.out.println("//////////////////");
+		P l3=new P();
+		System.out.println("//////////////////");
+		System.out.println(P.count);
+		System.out.println("..................");
+		System.out.println("main end");
+
+	}
+}
+/*
+E:\oct-23\app21\src>java -cp ..\classes P
+p-SIB
+main begin
+p-IIB
+p()
+//////////////////
+p-IIB
+p()
+p()
+//////////////////
+p-IIB
+p()
+//////////////////
+3
+..................
+main end
+*/
+//SIB executes only one time when memory loaded to memory
+//IIB executes for  every obj creation
+//IIB doesnt required initially
+//SIB required for static members
+//DIFFERENCE BETWEEEN SIB AND IIB

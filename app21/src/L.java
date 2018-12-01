@@ -1,0 +1,20 @@
+class L
+{
+	static int count;
+	L()
+	{
+	count ++;
+	}
+	public static void main(String[] args) 
+	{
+		L l1=new L();
+		L l2=new L();
+		L l3=new L();
+		System.out.println(L.count);
+	}
+}
+//3
+//for every obj creation cons body count increment
+//to count how many no of objects created 
+//steps:
+//increment static counter

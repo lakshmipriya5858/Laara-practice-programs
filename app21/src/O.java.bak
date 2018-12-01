@@ -1,0 +1,31 @@
+class O
+{
+	static int count;
+	
+	
+	
+	O()
+	{
+
+	}
+	O(int i)
+	{
+		this();
+
+	}
+	{
+		count ++;
+	}
+	
+	
+	public static void main(String[] args) 
+	{
+		O l1=new O();
+		O l2=new O(20);
+		O l3=new O();
+		System.out.println(O.count);
+	}
+}
+//3
+//instead of using count ++ which is common code in every constructors use iib and use common code in IIB
+//As iib exceute for every obj creation
