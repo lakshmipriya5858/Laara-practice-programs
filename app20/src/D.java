@@ -6,7 +6,6 @@ class D
 		System.out.println("D()");
 		    i=10;
 			j=20;
-
 	}
 	D(int x)
 	{

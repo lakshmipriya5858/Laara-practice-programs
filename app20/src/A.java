@@ -1,6 +1,6 @@
 class  A
 {
-	A()
+	A()//constructor
 	{
 	System.out.println("A()");
 	}
