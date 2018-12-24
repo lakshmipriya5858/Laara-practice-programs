@@ -1,0 +1,8 @@
+interface E
+{
+	void test();
+	void test(int i);
+	int test(String i);
+	char test(int i,int j);
+}
+//interfaces also can overload methods

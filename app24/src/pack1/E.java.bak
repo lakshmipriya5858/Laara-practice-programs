@@ -1,0 +1,23 @@
+package pack1;
+class C
+{
+	private C()
+	{
+	System.out.println("-C()");
+	}
+}
+class E extends C
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("helloooooooo");
+	}
+}
+
+/*
+E:\oct-23\app24\src>javac -d ..\classes pack1/E.java
+pack1\E.java:9: error: C() has private access in C
+class E extends C
+^
+1 error
+*/

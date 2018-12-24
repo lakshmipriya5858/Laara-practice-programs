@@ -25,7 +25,13 @@ class R
 		System.out.println("R-iib3");
 	}
 	
-	
+	//sib s are not inheriting to sub class
+	//A sib not inherited to w class
+	//A class sib remains in a class only
+	//while loading w it will checks a loaded or not
+	//if not loaded yet A loaded operation
+	// w is depending on a
+
 	
 	
 	

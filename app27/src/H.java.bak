@@ -1,0 +1,7 @@
+interface H
+{
+	int i=0;
+	private void test();
+} 
+//CTE
+//every member of interace is public 

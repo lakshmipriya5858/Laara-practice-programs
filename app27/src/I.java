@@ -1,0 +1,10 @@
+interface I
+{
+	public int x=0;
+	public static int y=0;
+	public static final int z=0;
+	public final static int p=0;
+	final public static int q=0;
+	int r=0;
+	String s="abc";
+} 

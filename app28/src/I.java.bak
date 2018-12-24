@@ -1,0 +1,25 @@
+class A 
+{
+	void test()
+	{
+			System.out.println("A test()!");
+	}
+}
+class I extends A
+{
+	void test()
+	{
+			System.out.println("I test()!");	
+	}
+	public static void main(String[] args) 
+	{
+		I obj=new I();
+		obj.test();
+		System.out.println("done");
+	}
+}
+/*
+E:\oct-23\app28\src>java -cp ..\classes I
+I test()!
+done*/
+//A class testmethod overriding in the i class

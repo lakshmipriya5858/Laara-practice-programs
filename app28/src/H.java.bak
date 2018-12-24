@@ -1,0 +1,16 @@
+class A 
+{
+	void test()
+	{
+			System.out.println("A test()!");
+	}
+}
+class H extends A
+{
+	public static void main(String[] args) 
+	{
+		H obj=new H();
+		obj.test();
+		System.out.println("done");
+	}
+}

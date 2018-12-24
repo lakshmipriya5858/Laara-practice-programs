@@ -1,0 +1,44 @@
+app1:    litrals and println/print
+app2:    local variable
+app3:    unary operator
+app4:    + operator
+app5:    boolean expression
+app6:    if-block
+app7:    else block
+app8:    ternary operator
+app9:    switch case
+app10:   for loop
+app11:   for-each loop
+app12:   while loop
+app13:   do-while
+pattern: triangle and rectangle
+logical  coding(number): from 19nov(online)
+app14: methods
+app15: method coninuaion.........
+app16: static attributes
+app17: static initialisers.
+app18: static mber using in anoher classes and another files.
+app19: non-static
+app20: constructors. and overloading
+app21: this() and IIB
+app22:Inheritance
+app23:packages
+app24:private access levels
+app25:default,protected public access level
+app26:abstract class
+app27:interfaces
+app28:method overloading  and riding 
+app29:Primitive casting
+app30:
+
+
+
+
+
+
+
+
+
+
+
+

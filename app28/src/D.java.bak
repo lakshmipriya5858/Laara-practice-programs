@@ -1,0 +1,16 @@
+abstract class D 
+{
+	public void test() 
+	{
+		System.out.println("test()!");
+	}
+	void test(int i)
+	{
+	System.out.println("test(int)");
+	}
+	abstract void test(int i,int j);
+    static void test(String s1)
+    {
+    }
+}
+//?Method overloading is proper in this program

@@ -1,0 +1,44 @@
+interface A
+{
+  void test1();
+} 
+interface B extends A
+{
+  void test2();
+} 
+interface C extends A,B
+{
+	void test3();
+}
+class V implements C
+{
+    public void test1()
+	{
+		System.out.println("v-test1()");
+	}
+	public void test2()
+	{
+		System.out.println("v-test2()");
+	}
+	public void test3()
+	{
+		System.out.println("v-test3()");
+	}
+
+
+	public static void main(String[] args) 
+	{
+		V v1=new V();
+		v1.test1();
+		v1.test2();
+		v1.test3();
+		System.out.println("heehellllllllllllllllllllooooooooo");
+	}
+}
+/*
+
+E:\oct-23\app27\src>java -cp ..\classes V
+U-test1()
+U-test2()
+U-test3()
+heehellllllllllllllllllllooooooooo*/

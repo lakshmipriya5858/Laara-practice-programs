@@ -1,0 +1,32 @@
+class  A
+{
+	A()
+	{
+				System.out.println("A()");
+	}
+}
+class B extends A
+{
+	B()
+	{
+				System.out.println("B()");
+	}
+	B(int i)
+	{           super();
+				System.out.println("B(int)");//for one object creation same cons should not execute 2times
+				this();
+	}
+}
+class Z1
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Y-helloworld");
+	}
+}
+/*
+E:\oct-23\app22\src>java -cp ..\classes Z1
+CTE
+Compile time error
+
+*/

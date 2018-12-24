@@ -1,0 +1,22 @@
+class  A
+{
+	static 
+	{
+			System.out.println("A-sib");
+	}
+}
+class W extends A
+{
+	static
+	{
+		System.out.println("W-sib");
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("W-main");
+	}
+}
+/*E:\oct-23\app22\src>java -cp ..\classes W
+A-sib
+W-sib
+W-main*/
