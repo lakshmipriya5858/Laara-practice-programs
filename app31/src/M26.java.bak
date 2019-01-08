@@ -1,0 +1,21 @@
+class M26
+{
+	static void test1(Int... args)
+	{
+		System.out.println("var arg");	
+	}
+	
+	static void test1(Object obj)
+	{
+		System.out.println("test( Object)!");	
+	}
+	
+	public static void main(String[] args) 
+	{
+		byte b1=10;
+		test1(b1);
+System.out.println("done World!");
+	}
+}
+//if there is no suitable method 
+//while boxing it will go for wrapper class

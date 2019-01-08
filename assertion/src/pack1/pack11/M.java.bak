@@ -1,0 +1,20 @@
+package pack1.pack11;
+public class M
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("pack1.pack11.M.test2 begin");
+	    assert false;
+		System.out.println("pack1.pack11.M.test2 end");
+	}
+}
+//compiles sucessfully.
+/*
+
+D:\java\assertion\src>javac -d ../classes pack1/pack11/M.java
+
+D:\java\assertion\src>java -cp ../classes pack1.pack11.M
+pack1.pack11.M.test2 begin
+pack1.pack11.M.test2 end
+
+*/

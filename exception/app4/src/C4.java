@@ -1,0 +1,8 @@
+class C4 extends A
+{
+	 void test4() throws ClassNotFoundException
+	{
+		System.out.println("Hello World!");
+	}
+}
+//CTE

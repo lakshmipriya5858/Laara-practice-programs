@@ -1,0 +1,9 @@
+class M36 
+{
+	public static void main(String[] args) 
+	{
+		A a1= new A();
+		a1.test1(); // compier will be checking wat is the ref datattype.
+		System.out.println(a1.i); // runtym will be checking to where ref is poining.
+	}
+}

@@ -1,6 +1,6 @@
 class D
 {
-	static int i=10,j,k=0;
+	static int i=10, j ,k=0;
 		public static void main(String[] args) 
 	{
 		System.out.println(i+","+j+","+k);

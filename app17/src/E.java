@@ -11,7 +11,6 @@ class E
 		j=10;//direct write
 		k=10; // direc write
 		test();
-
 	}
 	static void test()
 	{
@@ -22,8 +21,7 @@ class E
 		System.out.println("test:"+k); // indirect read
 		k=20;//indirec write.
 	}
-
-	static int  method1()
+             static int  method1()
 	{
 	System.out.println("method1():"+i); //indirect read.
 	i=20; // indirect write
@@ -36,4 +34,4 @@ class E
 		System.out.println("main");
 	}
 
-}}
+}

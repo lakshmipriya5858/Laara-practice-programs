@@ -1,0 +1,7 @@
+class A1 extends
+{
+	 void test1()
+	{
+		System.out.println("Hello World!");
+	}
+}

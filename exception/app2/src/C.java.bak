@@ -1,0 +1,18 @@
+class  C
+{
+	int test()
+	{
+	try
+	{
+		//several statement
+	}
+	catch ()
+	{
+	}
+	finally
+	{
+	
+	}
+	return 40;
+	}
+}

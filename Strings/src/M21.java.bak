@@ -1,0 +1,17 @@
+class M21
+{
+	public static void main(String[] args) 
+	{char[] x={'1','a','b','p','%'};
+	String s1=new String(x);
+	System.out.println(s1);
+		}
+}
+/*
+E:\oct-23\Strings\src>javac -d ..\classes M20.java
+
+E:\oct-23\Strings\src>java -cp ..\classes M20
+null
+null10
+nullnull
+1020
+*/

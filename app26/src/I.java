@@ -14,7 +14,6 @@ public static void main(String[] args)
 			System.out.println("done!");
 	}
 }
-/*
 //while accessing static variable to refernce variable compiler replacing from reference var to class name 
 //if test method is static u shoukld use reference variableto class name 
 //forabstract class we cannot class we cannot use obj only can use reference variable

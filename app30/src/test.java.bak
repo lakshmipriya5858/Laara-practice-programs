@@ -1,0 +1,10 @@
+class test 
+{
+	public static void method1(Object obj) 
+	{
+		C c1= (C) obj;
+		System.out.println("Hell");
+	}
+}
+// argumnt is a object tye
+//we are down casting it blindly

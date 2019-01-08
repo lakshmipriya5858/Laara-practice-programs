@@ -1,0 +1,23 @@
+class G1 
+{
+	public static void main(String[] args) 
+	{
+try
+{
+	//several statements
+}
+catch (ArithmeticException Ex)
+{
+}
+catch (RuntimeException Ex)
+{
+}
+catch (Exception Ex)
+{
+}
+catch (Throwable Ex)
+{
+}
+}
+}
+//while going for multiple catches with same inhertance

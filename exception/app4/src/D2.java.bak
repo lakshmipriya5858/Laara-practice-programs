@@ -1,0 +1,8 @@
+class D2 extends A
+{
+	 void test2() throws Exception
+	{
+	}
+}
+//CTE
+//Exception acting as a check while using for throws 

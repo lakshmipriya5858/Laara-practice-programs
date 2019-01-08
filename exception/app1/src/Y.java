@@ -1,0 +1,25 @@
+class Y
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		int i = 10;
+		try
+		{
+		i = 10/0;
+
+		}
+		catch ( ArithmeticException ex) // throwable
+		{
+		  i=20;
+		}
+				System.out.println("main end" + i);
+
+
+	}
+}
+/*
+declare the variable before the try and catcth block
+if u want to use itin both.
+
+*/

@@ -1,0 +1,15 @@
+class T
+{
+	final int i;
+	T()
+	{
+	i=10;
+	}
+	T(int x)
+	{
+		this();
+		i=20;
+	}
+}
+///cte
+//if we create obj for second cons attempting to re intialise

@@ -1,0 +1,11 @@
+1.java -cp ../classes -ea:pack2... pack1.L
+//enables in pack2 and sub packages of pack2 (pack2.pack22)members
+
+2.java -cp ../classes -ea:pack2.N pack1.L
+//enables only in N class
+
+3.java -cp ../classes -ea -da:pack1... pack1.L
+ //enables in pack2 and sub packages of pack2 (pack2.pack22)members
+
+/dought
+4.java -cp ../classes -ea -da:pack1...-da:pack2.pack22.O pack1.L

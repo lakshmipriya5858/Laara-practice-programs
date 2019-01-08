@@ -15,7 +15,6 @@ public static void main(String[] args)
 	}
 }
 /*
-abstract class methodcant be used straight way*/
 //while accessing static variable to refernce variable compiler replacing from reference var to class name 
 //if test method is static u shoukld use reference variableto class name 
 //forabstract class we cannot class we cannot use obj only can use reference variable

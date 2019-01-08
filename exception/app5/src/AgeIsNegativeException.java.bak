@@ -1,0 +1,12 @@
+class AgeIsNegativeException extends ArithmeticException 
+{
+	AgeIsNegativeException()
+	{
+	
+	}
+	AgeIsNegativeException(String[] args) 
+	{
+             super(msg);
+     }
+}
+//designing a user defined exception class

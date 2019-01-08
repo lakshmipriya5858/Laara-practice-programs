@@ -1,0 +1,15 @@
+class M2 
+{
+	public static void main(String[] args) 
+	{
+		A a1= null;
+		A a2= null;
+		a1=a2;
+		Object obj1= null, obj2= null;
+		obj1=obj2;
+		C c1= null; 
+		System.out.println("Hello World!");
+	}
+}
+/*
+all assignmnt are homogenous*/

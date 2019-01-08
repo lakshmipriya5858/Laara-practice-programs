@@ -1,0 +1,25 @@
+class J 
+{
+	public static void main(String[] args) 
+	{
+		try
+		{
+		System.out.println(" try begin");
+		int i=10/0;
+		System.out.println(" try end");
+		}
+		catch(ArithmeticException ex)
+		{
+		System.out.println("from catch"+ex);
+		throw new ArithmeticException(ex.getMessage());
+		}
+				System.out.println("main end ");
+
+	}
+}
+//close method is auto closing before finally block
+//noe=w finally has become optionAL
+//all those resources are closing automatically
+//whenever try exceution is getting over 
+//we dont need to close it explicitly the finally block
+//h1 nad h2 local to drive 

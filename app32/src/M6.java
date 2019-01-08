@@ -1,0 +1,49 @@
+class A 
+{
+	public static void test()
+	{
+		System.out.println("from A.test()!");
+	}
+}
+class B extends A
+{
+public static void test()
+	{
+		System.out.println("from B.test()!");
+	}
+
+}
+class M6
+{
+	public static void main(String[] args) 
+	{
+		A a1=new A();
+		A a2=new B();
+		A[] elements={a1,a2};
+		for(A element : elements)
+		{
+		element.test();
+		}
+	}
+}
+//STATIC METHODS ARE NOT INVOLVING IN POLYMORPHISM 
+//SATIC METHODS ARE NOT OVERRIDED and also not modified
+
+/*
+test method of a always as member of A
+not becoming member to b
+even though it is in b
+inside b class there r 2 test methods a class test method and new test method 
+we cannot develop static and abstract together in any prog
+
+
+**************whwn ever using static method with reference variable  compiler replacing  to classname .test(A.test();) 
+if elemnt is a type it will go for /A.test();
+
+
+E:\oct-23\app32\src>javac -d ..\classes M6.java
+
+E:\oct-23\app32\src>java -cp ..\classes M6
+from A.test()!
+from A.test()!
+*/
