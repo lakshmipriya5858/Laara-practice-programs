@@ -1,0 +1,32 @@
+JDBC:
+
+driver class location:
+.............................................................
+CLASSPATH=D:\oraclexe\app\oracle\product\11.2.0\server\jdbc\lib\ojdbc5.jar;.
+
+driver class name:
+..........................................................
+oracle.jdbc.driver..OracleDriver
+
+
+
+.............................C:\Users\Priya>javap oracle.jdbc.driver.OracleDriver
+Compiled from "OracleDriver.java"
+public class oracle.jdbc.driver.OracleDriver implements java.sql.Driver {
+  public static final java.lang.String oracle_string;
+  public static final java.lang.String jdbc_string;
+  public static final java.lang.String protocol_string;
+  public static final java.lang.String user_string;
+  public static final java.lang.String password_string;
+  public static final java.lang.String database_string;
+  public static final java.lang.String server_string;
+  public static final java.lang.String access_string;
+  public static final java.lang.String protocolFullName_string;
+  public static final java.lang.String logon_as_internal_str;
+  public static final java.lang.String proxy_client_name;
+
+
+
+
+....................................C:\Users\Priya>echo %classpath%
+D:\oraclexe\app\oracle\product\11.2.0\server\jdbc\lib\ojdbc5.jar;.
